@@ -15,13 +15,13 @@ Step 1: Launch an AWS EC2 Instance
 2.	Navigate to EC2 Dashboard and click Launch Instance.
 3.	Choose an Ubuntu 22.04 LTS AMI (recommended for T-Pot).
 4.	Select an instance type:
--Minimum recommended: t3.medium (2 vCPUs, 4GB RAM)
--Preferred for better performance: t3.large (2 vCPUs, 8GB RAM)
+<div>-Minimum recommended: t3.medium (2 vCPUs, 4GB RAM) </div>
+<div>-Preferred for better performance: t3.large (2 vCPUs, 8GB RAM) </div>
 5.	Configure security groups:
--Allow SSH (Port 22) for your IP.
--Allow required honeypot ports (e.g., 80, 443, 22, 23, 3389, etc.).
--Allow outbound access for updates.
-6.	Set up key pair for SSH authentication.
+<div>-Allow SSH (Port 22) for your IP.</div>
+<div>-Allow required honeypot ports (e.g., 80, 443, 22, 23, 3389, etc.)</div>
+<div>-Allow outbound access for updates.</div>
+6.	Set up key pair for SSH authentication.</div>
 7.	Click Launch Instance and wait for it to be available.
 ________________________________________
 Step 2: Install T-Pot on EC2
