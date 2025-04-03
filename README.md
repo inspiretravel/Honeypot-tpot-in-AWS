@@ -59,7 +59,14 @@ sudo docker ps
 -Open http://your-ec2-public-ip:64297
 
 -Log in using the admin credentials set during installation.
+
+![image alt](https://github.com/inspiretravel/Honeypot-tpot-in-AWS/blob/main/dashboard%20screen.jpg?raw=true)
 ________________________________________
 
 ### Investigation
+![image alt](https://github.com/inspiretravel/Honeypot-tpot-in-AWS/blob/main/dashboard%20screen1.jpg?raw=true)
+![image alt](https://github.com/inspiretravel/Honeypot-tpot-in-AWS/blob/main/dashboard%20screen2.jpg?raw=true)
+![image alt](https://github.com/inspiretravel/Honeypot-tpot-in-AWS/blob/main/dashboard%20screen3.jpg?raw=true)
+![image alt](https://github.com/inspiretravel/Honeypot-tpot-in-AWS/blob/main/CVE1.jpg?raw=true)
+![image alt](https://github.com/inspiretravel/Honeypot-tpot-in-AWS/blob/main/CVE2.jpg?raw=true)
 
