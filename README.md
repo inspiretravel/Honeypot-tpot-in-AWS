@@ -4,6 +4,7 @@
 Setting Up T-Pot Honeypot in AWS EC2 and Integrating with Elastic SIEM 
 
 #Prerequisites
+
 •	AWS Account, Security Group Configuration for AWS EC2, Basic knowledge of Linux commands, Elastic SIEM environment configured
 ________________________________________
 Step 1: Launch an AWS EC2 Instance
@@ -12,9 +13,16 @@ Step 1: Launch an AWS EC2 Instance
 3.	Choose an Ubuntu 22.04 LTS AMI (recommended for T-Pot).
 4.	Select an instance type:
 Minimum recommended: t3.medium (2 vCPUs, 4GB RAM) , Preferred for better performance: t3.large (2 vCPUs, 8GB RAM)
-5.	Configure security groups: a. Allow SSH (Port 22) for your IP, b. Allow required honeypot ports (e.g., 80, 443, 22, 23, 3389, etc.), c. Allow outbound access for updates.
-6.	Set up key pair for SSH authentication.
-7.	Click Launch Instance and wait for it to be available.
+5.	Configure security groups:
+   
+    -Allow SSH (Port 22) for your IP
+  	
+    -Allow required honeypot ports (e.g., 80, 443, 22, 23, 3389, etc.)
+
+    -Allow outbound access for updates.
+   
+7.	Set up key pair for SSH authentication.
+8.	Click Launch Instance and wait for it to be available.
 <div></div><div></div>
 ________________________________________
 
@@ -31,8 +39,11 @@ sudo apt install -y git curl
 7.	cd tpotce/iso/installer/
 sudo ./install.sh
 8.	Follow the interactive prompts:
-o	Choose installation type (Standard, Minimal, etc.)
-o	Set up admin credentials
+
+    -Choose installation type (Standard, Minimal, etc.)
+
+    -Set up admin credentials
+
 9.	Reboot the system after installation:
 sudo reboot
 ________________________________________
