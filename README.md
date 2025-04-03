@@ -53,6 +53,8 @@ Step 3: Verify T-Pot is Running
 2.	Check running containers:
 sudo docker ps
 3.	Access T-Pot Web UI:
-<div>Open http://your-ec2-public-ip:64297</div>
-<div>Log in using the admin credentials set during installation.</div>
+
+-Open http://your-ec2-public-ip:64297
+
+-Log in using the admin credentials set during installation.
 ________________________________________
