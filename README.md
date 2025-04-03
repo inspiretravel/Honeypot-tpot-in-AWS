@@ -1,4 +1,4 @@
-# Honeypot tpot in AWS
+# Honeypot tpot in AWS Cloud Platform
  Project - Deploy Honeypot tpot in AWS EC2
 
 
