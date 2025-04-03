@@ -20,6 +20,8 @@ Minimum recommended: t3.medium (2 vCPUs, 4GB RAM) , Preferred for better perform
     -Allow required honeypot ports (e.g., 80, 443, 22, 23, 3389, etc.)
 
     -Allow outbound access for updates.
+
+   ![image alt](https://github.com/inspiretravel/Honeypot-tpot-in-AWS/blob/main/AWSnetwork.jpg?raw=true)
    
 7.	Set up key pair for SSH authentication.
 8.	Click Launch Instance and wait for it to be available.
@@ -58,3 +60,6 @@ sudo docker ps
 
 -Log in using the admin credentials set during installation.
 ________________________________________
+
+### Investigation
+
