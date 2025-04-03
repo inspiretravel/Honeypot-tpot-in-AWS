@@ -6,6 +6,34 @@ Setting Up T-Pot Honeypot in AWS EC2 and Integrating with Elastic SIEM
 #Prerequisites
 
 •	AWS Account, Security Group Configuration for AWS EC2, Basic knowledge of Linux commands, Elastic SIEM environment configured
+<div></div>
+
+
+#Skills Learned#
+
+
+-In-depth understanding of SIEM concepts and hands-on experience with Elastic Security and AWS EC2.
+
+-Proficiency in analyzing and correlating logs from the T-Pot honeypot in Elastic SIEM.
+
+-Ability to identify and investigate attack signatures and threat patterns in AWS-hosted environments.
+
+-Enhanced knowledge of network protocols, intrusion techniques, and security vulnerabilities.
+
+-Development of critical thinking and incident response skills for real-world cybersecurity threats.
+
+
+#Tools Used#
+
+
+-Elastic Security (SIEM) for log ingestion, correlation, and threat detection.
+
+-Kibana for visualizing and analyzing honeypot data.
+
+-AWS EC2 for deploying and managing the honeypot environment.
+
+-T-Pot Honeypot Framework for collecting attack telemetry and analyzing adversary behavior.
+
 ________________________________________
 Step 1: Launch an AWS EC2 Instance
 1.	Log in to the AWS Management Console.
@@ -64,9 +92,24 @@ sudo docker ps
 ________________________________________
 
 ### Investigation
+After several days of VM up, my tpot captured enormous attacks. To conduct my analysus using ELK stack, here is my finding:
+
+
 ![image alt](https://github.com/inspiretravel/Honeypot-tpot-in-AWS/blob/main/dashboard%20screen1.jpg?raw=true)
 ![image alt](https://github.com/inspiretravel/Honeypot-tpot-in-AWS/blob/main/dashboard%20screen2.jpg?raw=true)
 ![image alt](https://github.com/inspiretravel/Honeypot-tpot-in-AWS/blob/main/dashboard%20screen3.jpg?raw=true)
+
+
+Q1.Who are the attackers?
+Top 3 attackers is 223.177.160.22, 60.248.96.154, 175.59.74.2. According to talosintelligence, they came from india, taiwan and china.
+
+Q2. What is the common attacks?
+The username and password tagclouds show the input attempts used in the brute force attacks. sa is the top username attackers tried to emmurate
+And CVE-2006-2369 is the most common attack tactic.
+
+
 ![image alt](https://github.com/inspiretravel/Honeypot-tpot-in-AWS/blob/main/CVE1.jpg?raw=true)
+
+
 ![image alt](https://github.com/inspiretravel/Honeypot-tpot-in-AWS/blob/main/CVE2.jpg?raw=true)
 
