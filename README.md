@@ -1,15 +1,15 @@
 # Project - Honeypot tpot in AWS Cloud Platform
 
-### Objection: 
+## 🔍Objection
 Setting Up T-Pot Honeypot in AWS EC2 and Integrating with Elastic SIEM 
 
-#Prerequisites
+## ✍️Prerequisites
 
 •	AWS Account, Security Group Configuration for AWS EC2, Basic knowledge of Linux commands, Elastic SIEM environment configured
 <div></div>
 
 
-#Skills Learned#
+## 🛡️Skills Learned
 
 
 -In-depth understanding of SIEM concepts and hands-on experience with Elastic Security and AWS EC2.
@@ -23,7 +23,7 @@ Setting Up T-Pot Honeypot in AWS EC2 and Integrating with Elastic SIEM
 -Development of critical thinking and incident response skills for real-world cybersecurity threats.
 
 
-#Tools Used#
+## 📌Tools Used
 
 
 -Elastic Security (SIEM) for log ingestion, correlation, and threat detection.
@@ -91,7 +91,7 @@ sudo docker ps
 ![image alt](https://github.com/inspiretravel/Honeypot-tpot-in-AWS/blob/main/dashboard%20screen.jpg?raw=true)
 ________________________________________
 
-### Investigation
+## 📁Investigation
 After several days of VM up, my tpot captured enormous attacks. To conduct my analysus using ELK stack, here is my finding:
 
 
